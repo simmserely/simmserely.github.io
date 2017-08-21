@@ -1,0 +1,115 @@
+
+body {
+	/*align-items: center;
+ 	background-image: url('https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-1/01/background.jpg');*/
+ 	background-image: url(https://themes.googleusercontent.com/image?id=0BwVBOzw_-hbMZDgyZmJiZTMtNWUxNC00NjA1LWJhZWMtODc3ZWQwMzZiYjcz);
+	background-color: LightBlue;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*flex-direction: column;
+	justify-content: center;
+	display: flex;*/
+	margin: 0px;
+	padding: 0px;
+}
+
+div.header, div.footer {
+	height: 25px;
+	width: 100%;
+	background-color: AliceBlue;
+}
+
+div.container{
+	background-color: White;
+	height: 5000px;
+	overflow: scroll;
+	width: 75%;
+	border-top: 3px dashed Gray;
+	margin: 20px auto;
+	padding: 0px 20px;
+}
+
+#simmserely {
+  color: #6aa84f;
+  font-family: 'Trebuchet MS';
+  font-size: 60px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  margin: 20px 0px;
+  width: 50%;
+  /*line-height: 0px;*/
+  /*text-shadow: 0px 2px 4px rgba(34,62,66,.75);*/
+}
+
+div.main {
+	position: relative;
+	/*border: 3px solid Green;*/
+	margin: 0px;
+	/*align-items: center;
+	align-self: center;
+	min-height: 800px;
+	width: 800px;
+	justify-content: center;
+	display: flex;
+	border-radius: 0%;
+	flex-direction: column;*/
+}
+
+div.entry {
+	background-color: Snow;
+	/*border: 1px solid Gray;*/
+	margin: 10px;
+	font-size: 16px;
+	font-family: 'Raleway';
+	word-spacing: 0.20em;
+	line-height: 1.5em;
+	word-spacing: 0.20em;
+	width: 70%;
+	padding: 5px;
+}
+
+div.sidebar {
+	background-color: Snow;
+	position: absolute;
+	right: 5px;
+	top: 0px;
+	/*border: 1px solid Green;*/
+	margin: 10px;
+	width: 25%;
+}
+
+h1 {
+	font-family: 'Raleway';
+	font-size: 20px;
+}
+
+p {
+	font-size: 16px;
+	font-family: 'Raleway';
+}
+
+p.category {
+	font-style: italic;
+}
+
+
+/*a.btn {
+	background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(255,124,189,0.65) 50%,rgba(108,0,153,0.65) 100%);
+	border-radius: 2px;
+	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 16px 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: box-shadow 1s ease;
+	transition: box-shadow 1s ease;
+}
+
+a.btn:hover {
+	box-shadow: 0px 4px 4px rgba(34,62,66,.5);
+	-webkit-transition: box-shadow 1s ease;
+	transition: box-shadow 1s ease;
+}*/
